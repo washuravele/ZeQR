@@ -4,3 +4,6 @@ setTimeout(function(){
 },11000);
 
 
+$(".gen").click(function(){
+   alert("QR-Code Created");
+});
