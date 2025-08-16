@@ -1,0 +1,167 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+/*header*/
+.intro{
+    height: 70vh;
+    display: flex;
+    background-image: url("../images/background\ pic.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 550px;
+    margin-left: 20px;
+}
+.title >h1{
+   color: white;
+   font-size: 100px;
+}
+
+.title >p{
+    color: #A2AF9B;
+    margin-top: -70px;
+}
+.socials{
+    color: white;
+    font-size: 22px;
+}
+
+
+
+
+/*content style*/
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+
+/*inputs*/
+.inputs{
+    width: 700px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.links{
+   font-size: 18px;
+   margin-left: -160px;
+}
+
+#userLink{
+    border: 3px solid #A2AF9B;
+    width: 180px;
+}
+
+.img{
+   border: 3px solid #A2AF9B;
+   width: 260px;
+   height: 230px;
+}
+
+.qrCode{
+    width: 100%;
+    height: 100%;
+}
+
+.gen{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 3px solid #A2AF9B;
+    cursor: pointer;
+}
+
+.btn :hover{
+    background-color: white;
+    color:#A2AF9B;
+    border: 3px solid black;
+}
+
+
+
+
+
+/*aboutus*/
+.aboutus{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.aboutus > div > h2{
+    font-size: 40px;
+}
+.about{
+   font-size: 20px;
+}
+
+
+
+/*footer*/
+.footer{
+    background-color: black;
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socialIcons{
+    cursor: pointer;
+}
+
+.socialI{
+   width: 30px;
+   height: 30px;
+}
+
+
+
+/*font style*/
+
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+}
+
+.big-shoulders-inline {
+  font-family: "Big Shoulders Inline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:10px;
+  font-style: normal;
+}
+
+.ga-maamli-regular {
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}

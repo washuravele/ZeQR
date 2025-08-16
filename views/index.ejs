@@ -1,0 +1,56 @@
+<%- include("partials/header.ejs") %>
+
+<div class="intro">
+         
+               <div class="title"> 
+                      <h1 class="caveat">ZeQR</h1>
+                      <p class="big-shoulders-inline">We generate QR-code for free.By just typing  your  link  
+                        could be any link<span class="socials caveat">(social media , website , whatsapp)</span>.
+                        We convent your link to QR-code img, within seconds.
+                      </p>
+               </div> 
+</div>
+
+
+
+<div class="content">
+          
+
+          <form class="inputs" action="/generate" method="post">
+
+                 <div class="links">
+                    <label class="montserrat">Enter link:</label>
+                   <input type="text" name="link" id="userLink" placeholder="www.example.com">
+                </div>
+                   
+                <div class="img">
+                      <img class="qrCode" src="/qr_code.png">
+                </div>
+                  
+                <div class="btn">
+                    <input type="submit"  value="Generate" class="gen">
+                </div>
+
+          </form> 
+
+      
+
+         <div class="aboutus">
+                <div><h2 class="caveat">About us</h2></div>
+
+                <div class="about montserrat">
+                   ZeQR is a website that was created to help people
+                   use  latest technology allowing users to provide us with the link and
+                   we convert it to a QR-code img. This is helpful when you want create a poster with
+                   QR-code , sending a friend a link ,etc. So there is no need for you to type the  link
+                   ,you will just send QR-code img and they will scan it and get your link.
+                </div>
+
+
+         </div>
+             
+
+</div>
+
+
+<%- include("partials/footer.ejs") %>
